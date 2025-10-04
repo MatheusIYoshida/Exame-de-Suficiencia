@@ -1,0 +1,29 @@
+.form-container{
+    margin-top: 20px;
+}
+
+.create-account-container{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#loginButton{
+    background-color: #10B981;
+    color: #FFF;
+}
+
+#loginButton:hover{
+    background-color: #059669;
+}
+
+#goToRegisterButton{
+    background-color: #3b82f6;
+    color: #FFF;
+}
+
+#goToRegisterButton:hover{
+    background-color: #2563EB;
+}

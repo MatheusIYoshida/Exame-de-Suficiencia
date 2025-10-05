@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="src/styles/auth.css">
-    <link rel="stylesheet" href="src/styles/login.css">
+    <link rel="stylesheet" href="src/styles/cadastro.css">
 </head>
 <body>
     <div class="auth-container">
@@ -26,21 +26,15 @@
                     Please login to your account
                 </div>
                 <form>
+                    <input class="input" type="text" placeholder="Name:"/>
                     <input class="input" type="email" placeholder="Email:"/>
                     <input class="input" type="password" placeholder="Password:"/>
-                    <button class="button" id="loginButton" type="button">LOG IN</button>
+                    <input class="input" type="text" placeholder="Address:"/>
+                    <input class="input" type="number" placeholder="Phone:"/>
+                    <button class="button" id="registerButton" type="button">LOG IN</button>
                 </form>
-            </div>
-            <div class="create-account-container">
-                <div class="create-account-title">
-                    Don't have an account?
-                </div>
-                <div class="create-account-button">
-                    <button class="button" id="goToRegisterButton" type="button">CREATE ACCOUNT</button>
-                </div>
             </div>
         </div>
     </div>
-    <script src="src/scripts/login.js"></script>
 </body>
 </html>

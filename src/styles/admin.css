@@ -1,0 +1,116 @@
+.post-container-header{
+    margin: 30px;
+    display: flex;
+}
+
+.create-user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.create-user-title{
+    font-family: "Montserrat", sans-serif;
+}
+
+.create-user-container form{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-user-container input{
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    width: 150px;
+    margin: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#createUser{
+    background-color: #10B981;
+    opacity: .7;
+}
+
+#clearInput{
+    background-color: #dc3545;
+    opacity: .7;
+}
+
+#createUser:hover,
+#clearInput:hover{
+    opacity: 1;
+}
+
+.list-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.list-menu-title{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.list-menu-options{
+    margin-top: 30px;
+}
+
+.list-menu-options input{
+    padding: 7px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #c8c9cc;
+    width: 300px;
+}
+
+.list-menu-options button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
+.list-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.list-container table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.list-container table th,
+.list-container table td{
+    text-align: start;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    width: 400px;
+}
+
+.table-header{
+    background-color: #ececec;
+}

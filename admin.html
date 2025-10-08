@@ -27,8 +27,8 @@
                         Create User
                     </div>
                     <form>
-                        <input type="text" placeholder="Name:" />
-                        <input type="email" placeholder="Email:" />
+                        <input id="nameInput" type="text" placeholder="Name:" />
+                        <input id="emailInput" type="email" placeholder="Email:" />
                         <div class="buttons-container">
                             <button id="createUser" type="submit">CREATE USER</button>
                             <button id="clearInput" type="reset">CLEAR</button>
@@ -44,12 +44,17 @@
                 </div>
             </div>    
             <div class="list-container">
-                <table>
-                    <tr class="table-header">
-                        <th>NAME</th>
-                        <th>EMAIL</th>
-                        <th>ACTION</th>
-                    </tr>
+                <table id="table">
+                    <thead>
+                        <tr class="table-header">
+                            <th>NAME</th>
+                            <th>EMAIL</th>
+                            <th class="centralize">ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -59,5 +64,6 @@
             Created by: <a href="https://www.linkedin.com/in/matheus-imazu-yoshida-097b0b2a8">Matheus Imazu Yoshida</a>
         </div>
     </footer>
+    <script src="src/scripts/admin.js"></script>
 </body>
 </html>

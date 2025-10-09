@@ -25,7 +25,9 @@ document.querySelector('#searchList').addEventListener('keyup', () => {
     })
 });
 
-document.querySelector('#createUser').addEventListener('click', () => {
+document.querySelector('#createUser').addEventListener('click', (event) => {
+    event.preventDefault();
+
     let name = document.querySelector('#nameInput').value;
     let email = document.querySelector('#emailInput').value;
     const date = new Date().toLocaleDateString('pt-BR');
@@ -98,7 +100,6 @@ function tableList(){
 function removeUser(email){
     const listUsers = JSON.parse(localStorage.getItem('listUsers'));
     const updatedList = listUsers.filter(user => user.email !== email);
-    localStorage.removeItem('listUser');
     localStorage.setItem('listUsers', JSON.stringify(updatedList));
     tableList();
 }

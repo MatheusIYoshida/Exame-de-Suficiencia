@@ -48,8 +48,8 @@ document.querySelector('#createUser').addEventListener('click', (event) => {
 
     listUsers.push(newUser);
     localStorage.setItem('listUsers', JSON.stringify(listUsers));
-    name = "";
-    email = "";
+    document.querySelector('#nameInput').value = "";
+    document.querySelector('#emailInput').value = "";
     tableList();
 });
 

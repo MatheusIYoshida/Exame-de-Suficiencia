@@ -90,6 +90,14 @@
     padding: 10px 30px;
     border-radius: 5px;
     border: 1px solid #E5E7EB;
+    background-color: #dc3545;
+    opacity: .7;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.list-menu-options button:hover{
+    opacity: 1;
 }
 
 .list-container{
@@ -108,7 +116,7 @@
     text-align: start;
     border-bottom: 1px solid #000;
     padding: 10px;
-    width: 400px;
+    width: 300px;
 }
 
 .table-header{
